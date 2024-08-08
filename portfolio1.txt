@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Portfolio</title>
+
+  <!-- for icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <style>
+    body {
+      background-color: #C8D9ED;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      color: #28465e;
+      height: 100vh;
+    }
+
+    .container {
+      height: auto;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 5rem  15rem  3rem  15rem;
+    }
+
+    .section-1 {
+      height: auto;
+      width: 100%;
+      display: flex;
+      gap: 2.5rem;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      width: 100%;    
+    }
+
+    .pic {
+      border-radius: 50%;
+      width: 11rem;
+      height: auto;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    .name {
+      font-size: 0.875rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .about {
+      margin: auto;
+      width: auto;
+      height: auto;
+    }
+
+    .about-title, .fave-title, .projects-title, .talents-title {
+      display: flex;
+      gap: 0.25rem;
+      align-items: center;
+      margin-bottom: -15px;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p, li {
+      font-weight: normal;
+      line-height: 1.5;
+    }
+
+    .section-2 {
+      display: flex;
+      gap: 2.5rem;
+      width: 100%;
+      height: auto;
+    }
+
+    .fave, .projects {
+      width: 100%;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 2rem;
+    }
+
+    .divider {
+      border: 0;
+      border-top: 1px solid #8bb2d3;
+      margin: 0;
+    }
+
+    .badge {
+      background-color: #ffcdd5;
+      color: #647a8c;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      border-radius: 9999px;
+      border-width: 2px;
+      border-color: #647a8c;
+      border-style: solid;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="section-1">
+      <div class="profile">
+        <img class="pic" src="pic.jpg" alt="pic">
+        <h3 class="name">Leah Mae L. Lamorin</h3>
+        <div class="badge">BSCS2</div>
+      </div>
+      <div class="about">
+        <div class="about-title">
+          <i class="material-icons">person</i>
+          <h1>About Me</h1>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium corporis, unde in consectetur tempora quos assumenda minus ducimus velit aut exercitationem quibusdam explicabo repudiandae non. Architecto, illo perferendis? Nostrum.
+        Alias excepturi voluptatum laboriosam eos, labore veniam ratione voluptatem quidem nisi aperiam odio iusto! Consectetur facere tenetur vel repellendus.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section-2">
+      <div class="fave">
+        <div class="fave-title">
+          <i class="material-icons">favorite</i>
+          <h1>My Favorites</h1>
+        </div>
+        <ul>
+          <li>Keeping myself busy</li>
+          <li>Reading books</li>
+          <li>Working out</li>
+        </ul>
+      </div>
+      <div class="projects">
+        <div class="projects-title">
+          <i class="material-icons">folder</i>
+          <h1>School Projects</h1>
+        </div>
+        <ul>
+          <li>Travelry Safe (Online App System)</li>
+          <li>Electricity & Water Payment (Online App System)</li>
+          <li>ComeBuy Ordering System (Kiosk Type System)</li>
+          <li>Online Voting System</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div>
+      <div class="talents-title">
+        <i class="material-icons">star</i>
+        <h1>My Talents</h1>
+      </div>
+      <p>Dancing allows me to connect with music that has an impact on my body, minds, and thoughts. I've learned a lot about life, myself, and how to listen to and comprehend my emotions by means of dance. Also, My favorite sport is volleyball since it's an ideal means to have fun and stay active. It's a fun activity to play since it requires working together, communicating, and strategy.</p>
+    </div>
+
+  </div>
+</body>
+</html>
